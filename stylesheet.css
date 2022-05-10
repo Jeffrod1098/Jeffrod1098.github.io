@@ -1,0 +1,89 @@
+body{
+    margin:0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #001c1f ;
+    color: white;
+    font-family:'Roboto', sans-serif; ;
+}
+
+#top-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#pic-border{
+    border: 3px dotted grey;
+    margin: 20px 20px 20px 20px;
+    padding: 20% 10% 20% 10%;
+}
+
+main{
+    /* border: 2px solid white; */
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main div{
+    border: 1px solid white;
+    width: 33%;
+    height: 33%;
+    margin: 15px;
+}
+
+/* footer{
+    border: 2px solid white;
+    margin: 20px 20px 20px 20px;
+    padding: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+} */
+
+
+footer{
+    /* border: 1px solid white; */
+    margin: 25px 0px 55px 0px;
+    width:60%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+
+
+footer div{
+    /* border: 1px solid white; */
+    width: 50px;
+    height: 50px;
+    margin:0%;
+}
+
+.icon-color{
+    fill: white;
+}
+
+b{
+    color:  #eb3023;
+}
+
+.about-me{
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.img-main{
+    width: 100%;
+    height: 100%;
+}
